@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    background: linear-gradient(to bottom, #057ac1, #03406c);
+    padding: 25px;
+    border-radius: 20px;
+    width: 340px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.diagnosis-box {
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #01395d;
+}
+
+.output-box {
+    background-color: #005b8d;
+    border-radius: 8px;
+    height: 150px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.output-text {
+    font-size: 14px;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px;
+}
+
+.symptom-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.diagnosis-btn, .speak-btn {
+    flex: 1;
+    padding: 12px 0;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.diagnosis-btn {
+    background-color: #2d8cc9;
+}
+
+.speak-btn {
+    background-color: #c0392b;
+}
+
+.diagnosis-btn:hover,
+.speak-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+/* ... other CSS rules ... */
+
+body {
+    background-color: #000; /* Fallback color */
+    background-image: url('background.png'); /* Replace 'your-image.jpg' with the actual path */
+    background-size: cover; /* Scale image to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: center center; /* Center the image */
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ... rest of your CSS ... */
