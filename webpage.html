@@ -4,25 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Scanalyze & MediBot</title>
-  <link rel="stylesheet" href="webpage.css "/>
+  <link rel="stylesheet" href="webpage.css"/>
+  <style>
+    .box {
+      cursor: pointer;
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      transition: transform 0.2s;
+    }
+    .box:hover {
+      transform: scale(1.05);
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
 </head>
 <body>
-    <body>
-        <div class="header">Dr.CURION – AI DETECTIVE TOOL</div>
-      
-        <div class="background">
-          <div class="container">
-            <div class="box">
-              <img src="icon1-removebg-preview.png" alt="Scanalyze" class="icon" />
-              <p class="label">Scanalyze</p>
-            </div>
-            <div class="box">
-              <img src="poda-removebg-preview.png" alt="MediBot" class="icon" />
-              <p class="label">MediBot</p>
-            </div>
-          </div>
-        </div>
-      </body>
-</html>
-  
+  <div class="header">Dr.CURION – AI DETECTIVE TOOL</div>
 
+  <div class="background">
+    <div class="container">
+
+      <!-- Scanalyze -->
+      <a href="scanalyze.html">
+        <div class="box">
+          <img src="icon1-removebg-preview.png" alt="Scanalyze" class="icon" />
+          <p class="label">Scanalyze</p>
+        </div>
+      </a>
+
+      <!-- MediBot -->
+      <a href="https://8b60-34-168-59-125.ngrok-free.app/">
+        <div class="box">
+          <img src="poda-removebg-preview.png" alt="MediBot" class="icon" />
+          <p class="label">MediBot</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</body>
+</html>
